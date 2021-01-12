@@ -11,13 +11,20 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.fromLTRB(20, 30, 20, 20 ),
+      padding: EdgeInsets.fromLTRB(0, 0, 0, 0 ),
       decoration: BoxDecoration(
         color: Colors.white,
         border: Border.all(width: 1, color: Colors.white)
       ),
       //Adicionando imagens
-      child: Image.asset("imagens/image1.png"),
+      /*
+      * contain, cover, fill, fitheight,
+      * fitWidth, none, scaleDown
+      */
+      child: Image.asset(
+        "imagens/image1.png",
+        fit: BoxFit.scaleDown,
+      ),
 
       /*child: Column(
         //Eixos variam de acordo com a direção Row e Column
