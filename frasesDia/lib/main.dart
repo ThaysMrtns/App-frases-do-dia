@@ -11,12 +11,18 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(0),
-      color: Colors.white,
+      padding: EdgeInsets.fromLTRB(20, 30, 20, 20 ),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        border: Border.all(width: 1, color: Colors.white)
+      ),
       child: Column(
+        //Eixos variam de acordo com a direção Row e Column
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly, //Eixo principal
+        crossAxisAlignment: CrossAxisAlignment.center, //Eixo secundário
         children: <Widget>[
           Text(
-            "Que a força esteja com vo",
+            "T1",
             style: TextStyle(
                 fontSize: 40,
                 color: Colors.black,
@@ -27,7 +33,31 @@ class App extends StatelessWidget {
                 decoration: TextDecoration.none,
             ),
           ),
-          FlatButton(
+          Text(
+            "T2",
+            style: TextStyle(
+                fontSize: 40,
+                color: Colors.black,
+                fontStyle: FontStyle.normal,
+                fontWeight: FontWeight.normal,
+                letterSpacing: 0,
+                wordSpacing: 0,
+                decoration: TextDecoration.none,
+            ),
+          ),
+          Text(
+            "T3",
+            style: TextStyle(
+                fontSize: 40,
+                color: Colors.black,
+                fontStyle: FontStyle.normal,
+                fontWeight: FontWeight.normal,
+                letterSpacing: 0,
+                wordSpacing: 0,
+                decoration: TextDecoration.none,
+            ),
+          ),
+         /* FlatButton(
               color: Colors.blue,
               onPressed: (){print("Botão pressionado!");},
               child: Text(
@@ -37,7 +67,7 @@ class App extends StatelessWidget {
                   color: Colors.white
                 )
               )
-          )
+          )*/
         ],
       ),
     );
