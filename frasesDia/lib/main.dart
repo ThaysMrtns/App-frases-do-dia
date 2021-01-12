@@ -16,10 +16,14 @@ class App extends StatelessWidget {
         color: Colors.white,
         border: Border.all(width: 1, color: Colors.white)
       ),
-      child: Column(
+      //Adicionando imagens
+      child: Image.asset("imagens/image1.png"),
+
+      /*child: Column(
         //Eixos variam de acordo com a direção Row e Column
         mainAxisAlignment: MainAxisAlignment.spaceEvenly, //Eixo principal
         crossAxisAlignment: CrossAxisAlignment.center, //Eixo secundário
+
         children: <Widget>[
           Text(
             "T1",
@@ -69,7 +73,7 @@ class App extends StatelessWidget {
               )
           )*/
         ],
-      ),
-    );
+      ), */
+    ); 
   }
 }
