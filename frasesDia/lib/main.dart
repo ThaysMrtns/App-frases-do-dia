@@ -2,12 +2,19 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     title: "Frases do dia",
-    home: Container(
+    home: App()
+  ));
+  
+}
+
+class App extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
       padding: EdgeInsets.all(0),
       color: Colors.white,
       child: Column(
         children: <Widget>[
-          App(),
           Text(
             "Que a força esteja com vo",
             style: TextStyle(
@@ -33,16 +40,6 @@ void main() {
           )
         ],
       ),
-    )
-  ));
-  
-}
-
-class App extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Text("test"),
     );
   }
 }
