@@ -1,16 +1,15 @@
-# frasesDia
+# Frases do Dia
 
-A new Flutter project.
+Trata-se de um aplicativo simples com fins didáticos e desenvolvido com Flutter. O objetivo do projeto é gerar frases.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Esse projeto foi desenvolvido com Flutter, uma framework de desenvolvimento mobile.
+A linguagem utilizada no aplicativo foi Dart. 
 
-A few resources to get you started if this is your first Flutter project:
+Para saber mais sobre as ferramentas acesse os links abaixo:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
